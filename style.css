@@ -3,6 +3,11 @@
 	margin: 0;
 	padding: 0;
 }
+@font-face
+{
+	font-family: "EurostileBQ";
+	src: url("fonts/EurostileBQ-Bold.otf");
+  }
 /*------Navigation--------*/
 #nav-bar
 {
@@ -24,7 +29,7 @@
 .navbar-nav li a
 {
 	float: right;
-	text-aling: left;
+	text-align: left;
 }
 #nav-bar ul li a:hover
 {
@@ -45,15 +50,39 @@
 .nav-link
 {
 	color: #ffffff!important;
-	font-weight: 600;
+	font-family: "EurostileBQ";
 	font-size: 16px;
+	letter-spacing: 1px;
 }
 h1
 {
 	color: blue;
 
 }
+.home-title
+{
+	color:#00AAFF;
+	color: white!important;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+	font-family: "EurostileBQ";
+	letter-spacing: 3px;
+}
+.reel
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
 body
 {
-	background-color: #000000!important;
+	background-color: #050505!important;
+}
+footer
+{
+	padding:20px;
+	margin-top:125px;
+	text-align: center;
 }
