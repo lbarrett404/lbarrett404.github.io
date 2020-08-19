@@ -7,6 +7,8 @@
 {
 	font-family: "EurostileBQ";
 	src: url("fonts/EurostileBQ-Bold.otf");
+	font-family: "Devil Breeze Medium";
+	src: url("fonts/Devil Breeze Medium.ttf")
   }
 /*------Navigation--------*/
 #nav-bar
@@ -15,12 +17,20 @@
 	top:0;
 	z-index: 10;
 }
+
 .navbar-brand img
 {
 	height: 50px;
 	padding-left: 30px;
 	padding-right: 10px;
 	padding-top: 0px;
+}
+@media only screen and (max-width : 1080px)
+{
+	.navbar-brand img 
+	{
+		display: none;
+	}
 }
 .navbar-nav li
 {
@@ -52,12 +62,7 @@
 	color: #ffffff!important;
 	font-family: "EurostileBQ";
 	font-size: 16px;
-	letter-spacing: 1px;
-}
-h1
-{
-	color: blue;
-
+	letter-spacing: 3px;
 }
 .home-title
 {
@@ -75,6 +80,10 @@ h1
 	flex-direction: column;
 	align-items: center;
 	margin-top: 50px;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+
 }
 body
 {
@@ -82,7 +91,6 @@ body
 }
 footer
 {
-	padding:20px;
 	margin-top:125px;
 	text-align: center;
 }
