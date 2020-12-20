@@ -389,7 +389,7 @@ body.offcanvas {
 
 .about-img,
 .about-img-2 {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
@@ -552,9 +552,13 @@ body.offcanvas {
       margin-top: 2em; } }
 
 .project {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
   width: 100%;
+  height: auto;
   display: block;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   margin-bottom: 30px; }
