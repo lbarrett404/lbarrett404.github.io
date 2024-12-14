@@ -13,10 +13,10 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#systems-design">Systems Design</a></li>
-            <li><a href="#content-architecture">Content & Information Architecture</a></li>
-            <li><a href="#user-experience">User Experience</a></li>
-            <li><a href="#security-ethics">Security & Ethics</a></li>
+            <li><a href="./systems-design">Systems Design</a></li>
+            <li><a href="./content-architecture">Content & Information Architecture</a></li>
+            <li><a href="./user-experience">User Experience</a></li>
+            <li><a href="./security-ethics">Security & Ethics</a></li>
         </ul>
     </nav>
     <main>
@@ -26,7 +26,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 DevOps Team. All rights reserved.</p>
+        <p>&copy; 2024 Lion's DevOps Team. All rights reserved.</p>
     </footer>
 </body>
 </html>
