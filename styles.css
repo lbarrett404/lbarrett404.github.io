@@ -10,7 +10,6 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
-    padding: 0 20px;
 }
 
 /* Header Styling */
@@ -72,6 +71,19 @@ section h2 {
 section p {
     font-size: 1.1em;
     color: #555;
+}
+
+ul {
+    list-style-position: inside;
+    background: #3399ff;
+    padding: 20px;
+  }
+
+ul li {
+    font-weight: bold;
+    font-size: 1.15em;
+    color: white;
+    padding: 10px;
 }
 
 /* Footer Styling */
