@@ -5,6 +5,10 @@ body, h1, h2, p, ul, li, a {
     font-family: Arial, sans-serif;
 }
 
+a {
+    color:white;
+}
+
 /* Body Styling */
 body {
     line-height: 1.6;
@@ -94,3 +98,4 @@ footer {
     background: #007bff;
     color: #fff;
 }
+
